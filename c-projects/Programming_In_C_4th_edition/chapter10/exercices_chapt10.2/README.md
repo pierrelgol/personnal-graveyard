@@ -1,0 +1,1 @@
+# 2. Write a function called insertEntry() to insert a new entry into a linked list. Have the procedure take as arguments a pointer to the list entry to be inserted (of type struct entry as defined in this chapter), and a pointer to an element in the list after which the new entry is to be inserted.

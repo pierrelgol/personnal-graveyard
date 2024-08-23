@@ -1,0 +1,6 @@
+Enter a number between 1 and 100: 
+
+Your number is 10.00
+Half of it is 5.00
+Square it to get 100.00
+Cube it to get 1000.00

@@ -1,0 +1,1 @@
+# . Modify Program 7.4 so the value of triangularNumber is returned by the function. Then go back to Program 4.5 and change that program so that it calls the new version of the calculateTriangularNumber() function.

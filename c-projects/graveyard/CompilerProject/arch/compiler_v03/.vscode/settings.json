@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/plgol.perso/CompilerProject/compiler_v03",
+            "binaryPath": "/Users/plgol.perso/CompilerProject/compiler_v03/lexer",
+            "binaryArgs": []
+        }
+    ]
+}

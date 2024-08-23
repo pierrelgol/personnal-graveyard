@@ -1,0 +1,17 @@
+# boolean or, not, is, and
+
+print("---- Boolean or, not, is, and -----\n")
+
+print("or print the first non zero element")
+print(f"0 or 0 = {0 or 0}")
+print(f"0 or 1 = {0 or 1}")
+print(f"1 or 0 = {1 or 0}")
+print(f"1 or 1 = {1 or 1}")
+print("")
+
+print("and evaluates the second argument if and only if the first argument is true")
+print(f"0 and 0 = {0 and 0}")
+print(f"0 and 1 = {0 and 1}")
+print(f"1 and 0 = {1 and 0}")
+print(f"1 and 1 = {1 and 1}")
+print("")

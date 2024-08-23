@@ -1,0 +1,96 @@
+void bsq_solve(t_map *map, t_file *file)
+{
+	(void)file;
+
+	i16		row;
+	i16		col;
+	i16 	side;
+	t_vec4 	vec;
+
+	side  = map->width;
+	row   = 1;
+	while(row < side)
+	{
+		col = 1;
+		while(col < side)
+		{
+			while(getchar() != '\n');
+
+			vec.va = map->grid[(((row - 1) * side) + (col - 1))];
+			vec.vb = map->grid[(((row - 1) * side) + (col))];
+			vec.vc = map->grid[(row * side + (col - 1))];
+			vec.vd = bsq_vec_min(vec) + 1;
+			map->grid[(row * side + col)] = vec.vd;
+
+			print_vec(vec, row, col);
+			log_content(map->grid, map->width ,map->height, AS_INTEGER);
+			++col;
+		}
+		++row;
+	}
+}
+
+i16 bsq_abs(i16 n)
+{
+	if(n <= 0)
+		return (0);
+	return (n);
+}
+
+
+t_vec4  bsq_vec_get_index(i16 index, i16 width, i16 height)
+{
+	t_vec4 indices;
+
+	indices.vd = index;
+	indices.vc = index - 1;
+	indices.vb = index - 1 - width - 1;
+	indices.va = index - width;
+
+	if(indices.vd == height)
+		indices.vd++;
+	
+
+	return (indices);
+}
+
+
+
+void print_vec(t_vec4 vec, i16 row, i16 col)
+{
+	printf("va[%d][%d] = %d\n",row-1,col-1,vec.va);
+	printf("vb[%d][%d] = %d\n",row-1,col,vec.vb);
+	printf("vc[%d][%d] = %d\n",row,col-1,vec.vc);
+	printf("vd[%d][%d] = %d\n",row,col,vec.vd);
+}
+
+
+i16 bsq_vec_min(t_vec4 vec)
+{
+	vec.vd = vec.va;
+
+	if(vec.vb < vec.vd)
+		vec.vd = vec.vb;
+
+	if(vec.vc < vec.vd)
+		vec.vd = vec.vc;
+
+	return (vec.vd);
+}
+
+
+
+i8 	bsq_is_obst(t_map *map, i16 index)
+{	
+	if(index < 0)
+		return(TRUE);
+	else if(map->grid[index] == 0)
+		return (TRUE);
+	else
+		return (FALSE);
+}
+
+
+
+
+

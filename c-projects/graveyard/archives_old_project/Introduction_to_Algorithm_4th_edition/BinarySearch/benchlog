@@ -1,0 +1,20 @@
+Benchmarking size 10000000:
+Trial completed in 0.000008 seconds value to find : 33612, index of the value : 16806
+Benchmarking size 20000000:
+Trial completed in 0.000011 seconds value to find : 4950496, index of the value : 2475248
+Benchmarking size 30000000:
+Trial completed in 0.000021 seconds value to find : 5300144, index of the value : 2650072
+Benchmarking size 40000000:
+Trial completed in 0.000012 seconds value to find : 49887314, index of the value : 24943657
+Benchmarking size 50000000:
+Trial completed in 0.000006 seconds value to find : 88217858, index of the value : 44108929
+Benchmarking size 60000000:
+Trial completed in 0.000006 seconds value to find : 100422542, index of the value : 50211271
+Benchmarking size 70000000:
+Trial completed in 0.000012 seconds value to find : 62055086, index of the value : 31027543
+Benchmarking size 80000000:
+Trial completed in 0.000007 seconds value to find : 35701754, index of the value : 17850877
+Benchmarking size 90000000:
+Trial completed in 0.000006 seconds value to find : 37555844, index of the value : 18777922
+Benchmarking size 100000000:
+Trial completed in 0.000011 seconds value to find : 14475416, index of the value : 7237708

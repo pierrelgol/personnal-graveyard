@@ -1,0 +1,20 @@
+Benchmarking size 10000:
+Trial completed in 0.005838 seconds
+Benchmarking size 20000:
+Trial completed in 0.009455 seconds
+Benchmarking size 30000:
+Trial completed in 0.009780 seconds
+Benchmarking size 40000:
+Trial completed in 0.012272 seconds
+Benchmarking size 50000:
+Trial completed in 0.011753 seconds
+Benchmarking size 60000:
+Trial completed in 0.011746 seconds
+Benchmarking size 70000:
+Trial completed in 0.013924 seconds
+Benchmarking size 80000:
+Trial completed in 0.016057 seconds
+Benchmarking size 90000:
+Trial completed in 0.018281 seconds
+Benchmarking size 100000:
+Trial completed in 0.020472 seconds

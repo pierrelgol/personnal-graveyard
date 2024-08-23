@@ -1,0 +1,1 @@
+# 10. Rewrite the compareStrings() function from Chapter 9 to use character pointers instead of array

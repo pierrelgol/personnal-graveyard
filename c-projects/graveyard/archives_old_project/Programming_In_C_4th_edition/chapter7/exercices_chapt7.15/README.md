@@ -1,0 +1,1 @@
+# 15. Modify Program 7.14 so that the user is asked again to type in the value of the base if an invalid base is entered. The modified program should continue to ask for the value of the base until a valid response is given.

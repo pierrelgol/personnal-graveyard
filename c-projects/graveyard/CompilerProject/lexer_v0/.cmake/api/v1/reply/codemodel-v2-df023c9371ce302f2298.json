@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lexer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lexer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lexer-95f52ecef2ef781d5c2d.json",
+					"name" : "lexer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_all-0c0d64d78e8a55e1bf9b.json",
+					"name" : "my_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_clean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_clean-6c794ee0fd871cb5dd26.json",
+					"name" : "my_clean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_fclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_fclean-096c2468634fa345b285.json",
+					"name" : "my_fclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_re::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_re-fc130d6c0aed69818aaf.json",
+					"name" : "my_re",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_test-0c1f1dc7218bd1862801.json",
+					"name" : "my_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/plgol.perso/CompilerProject/lexer_v0",
+		"source" : "/Users/plgol.perso/CompilerProject/lexer_v0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
